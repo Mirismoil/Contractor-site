@@ -1,0 +1,68 @@
+.ready-section {
+  margin-top: 200px;
+  background-image: url("../../images/stroyka.png");
+  background-repeat: no-repeat;
+}
+.ready {
+  padding: 116px 0 115px;
+}
+.ready-item {
+  width: 604px;
+}
+.ready-item > h3 {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #191919;
+}
+.ready-text {
+  margin-bottom: 84px;
+  width: 574px;
+}
+.ready-text > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #605e5d;
+}
+.ready-link {
+  padding: 29px 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  background: #ff4d01;
+  color: #ffffff;
+  border: 2px solid transparent;
+}
+.ready-link:hover{
+    color: black;
+}
+.ready-link:active{
+    background-color: white;
+    color: #191919;
+    border: 2px solid #191919;
+}
+.ready-link1 {
+  margin-left: 28px;
+  padding: 27px 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #191919;
+  border: 2px solid #191919;
+}
+.ready-link1:hover{
+    color: #ff4d01;
+}
+.ready-link1:active{
+    background: #ff4d01;
+    color: white;
+    border: 2px solid transparent;
+}
