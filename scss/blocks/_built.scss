@@ -1,0 +1,63 @@
+.built-section{
+    margin-bottom: 200px;
+}
+.built{
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.built-left__strong {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #ff4d01;
+}
+.built-left__title {
+  margin-bottom: 20px;
+  width: 473px;
+}
+.built-left__title > h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #191919;
+}
+.built-left__text {
+  width: 529px;
+  margin-bottom: 20px;
+}
+.built-left__text > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #605e5d;
+}
+.built-left__span {
+  display: flex;
+  flex-direction: column;
+}
+.built-left__span > span {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #191919;
+}
+.built-left__span > span::before {
+  margin-right: 14px;
+  content: url("../../images/togri.svg");
+}
+.built-left__img{
+    display: flex;
+    align-items: center;
+}
+.built-left__img2{
+    margin-right: 120px;
+}
