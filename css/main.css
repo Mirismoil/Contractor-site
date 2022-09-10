@@ -1190,6 +1190,16 @@ img {
   color: #191919;
 }
 
+.a:hover {
+  color: #ff4d01;
+}
+
+.a:active {
+  background: #ff4d01;
+  color: white;
+  border: 2px solid transparent;
+}
+
 .blocks-bottom {
   display: flex;
   justify-content: space-between;
