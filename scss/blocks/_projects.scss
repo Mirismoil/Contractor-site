@@ -23,6 +23,12 @@
   line-height: 62px;
   color: #191919;
 }
+.projects-wrapper {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .porjects-bottom {
   position: relative;
 }
@@ -69,3 +75,80 @@
   line-height: 20px;
   color: #eaeaeb;
 }
+
+.porjects-bottom__left {
+  position: relative;
+}
+.bottom-left__wrapper {
+  position: absolute;
+  top: 320px;
+  left: 30px;
+  width: 485px;
+  height: 281px;
+}
+.left-wrapper__title {
+  width: 361px;
+}
+.left-wrapper__title > h3 {
+  margin-bottom: 23px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.bottom-wrapper__text {
+  width: 447px;
+}
+.bottom-wrapper__text > p {
+  margin-bottom: 43px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #eaeaeb;
+}
+.bottom-left__span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #eaeaeb;
+}
+.bottom-left__span::before {
+  content: url("../../images/uchiburche.svg");
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.projects-wrapper__bottom {
+  text-align: center;
+  margin-bottom: 200px;
+}
+.bottom__span {
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background-color: white;
+  border: 2px solid black;
+}
+.bottom__span:hover{
+  border: 2px solid #FF4D01;
+}
+.bottom__span:active{
+  border: 2px solid #FF4D01;
+  background-color: #FF4D01;
+}
+.bottom__span1 {
+  margin-left: 24px;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background-color: #FF4D01;
+}
+.bottom__span1:hover{
+  border: 2px solid black;
+} 
+.bottom__span1:active{
+  background-color: white;
+  border: 2px solid black;
+} 
